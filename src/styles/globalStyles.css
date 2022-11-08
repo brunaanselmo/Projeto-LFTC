@@ -1,0 +1,28 @@
+:root { 
+    --color-background: #FFEFD5; 
+    --color-text-base: #32264D;
+    font-size: 60%;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  
+  html, body{
+    height: 100vh; 
+    width: 100vw;
+  }
+  body, input, button, select, textarea{
+    font: 500 1.8rem SEGOE UI;
+    color: var(--color-text-base);
+  }
+  
+  body{
+    background-color: var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
