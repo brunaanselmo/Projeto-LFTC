@@ -50,6 +50,15 @@ export const item = {
   padding: "10px",
 };
 
+export const footer = {
+  display: "flex",
+  flexDirection: "row",
+  justifyContent: "center",
+  alignItems: "center",
+  height: "100px",
+  width: "100%",
+};
+
 export const input = {
   borderWidth: "3px",
   borderColor: "black",
