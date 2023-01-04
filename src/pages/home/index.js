@@ -22,7 +22,7 @@ export default function Home() {
         </Button>
         <Button style={button}>
           <Link style={link} to="/FiniteAutomaton">
-            Automatos Finitos
+            Autômatos Finitos
           </Link>
         </Button>
 

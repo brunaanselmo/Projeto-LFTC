@@ -48,7 +48,7 @@ export const header = {
 };
 
 export const title = {
-  fontSize: '40px',
+  fontSize: '30px',
   textAlign: 'center',
   marginTop: '40px',
   marginLeft: '-20px'
