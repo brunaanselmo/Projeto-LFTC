@@ -20,6 +20,11 @@ export default function Home() {
             Gramáticas regulares
           </Link>
         </Button>
+        <Button style={button}>
+          <Link style={link} to="/FiniteAutomaton">
+            Automatos Finitos
+          </Link>
+        </Button>
 
       </div>
       <p style={text}>Bruna Anselmo</p>

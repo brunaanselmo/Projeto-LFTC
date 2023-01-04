@@ -5,25 +5,23 @@ import {
   Button,
   Tooltip,
   Divider,
-  Typography,
-  withStyles,
+  withStyles
 } from "@material-ui/core";
 import {
   RemoveOutlined as RemoveOutlinedIcon,
   AddOutlined as AddOutlinedIcon,
-  ArrowBack as ArrowBackIcon,
-  HelpOutline as HelpOutlineIcon,
+  ArrowBack as ArrowBackIcon
 } from "@material-ui/icons";
 import {
   container,
   input,
   button,
+  buttonBack,
   title,
   header,
   main,
   item,
   footer,
-  helper,
   divider,
 } from "./styles";
 
@@ -69,10 +67,18 @@ export default function RegularExpression() {
   }, [userInput]);
 
   return (
-    <Container style={container}>
-      <header style={header}>
-        <p style={title}>Simulador de Expressão Regular</p>
-      </header>
+    <Container maxWidth="lg" style={container}>
+    <header style={header}>
+      <Link style={buttonBack} to="/" width="20px" height="40px">
+        <Tooltip title="Voltar">
+          <Button style={buttonBack}>
+            <ArrowBackIcon color="action" style={{ fontSize: "2.5rem" }} />
+          </Button>
+        </Tooltip>
+      </Link>
+
+      <p style={title}>Expressão regular</p>
+    </header>
 
       <div style={main}>
         <input

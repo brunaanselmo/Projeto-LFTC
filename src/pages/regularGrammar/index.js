@@ -24,6 +24,7 @@ const GrammarInput = ({ grammar, leftSide, rightSide, cont }) => {
   const [inputs, setInputs] = useState([leftSide, rightSide]);
 
   return (
+    
     <div style={item}>
       <input
         value={inputs[0]}
